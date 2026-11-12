@@ -1,33 +1,49 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/DATABASE_PRACTICE-LOST_AT_SQL-101010?style=for-the-badge&labelColor=050805&color=00FF41" alt="Lost at SQL"/>
+  <img src="https://img.shields.io/badge/SQL-QUERY_CHALLENGES-101010?style=for-the-badge&logo=postgresql&logoColor=00FF41" alt="SQL"/>
+</p>
+
 # Lost at SQL
 
-Soluciones y apuntes de una serie de retos SQL con contexto narrativo. Los ejercicios trabajan consultas progresivas sobre tablas de una base de datos ficticia.
+Solutions and notes for a series of SQL challenges with a narrative setting. The exercises use progressive queries over a fictional database schema.
 
-## Contenido
+<p align="center">
+  <a href="https://github.com/tzayadet/SQL-Lost-at-SQL/blob/main/docs/index.html"><strong>SHOWCASE SOURCE</strong></a> ·
+  <a href="https://github.com/tzayadet/SQL-Lost-at-SQL"><strong>SOURCE CODE</strong></a>
+</p>
 
-- Consultas `SELECT` y proyección de columnas.
-- Filtrado de registros.
-- Ordenación y agrupación.
-- Funciones de agregación.
-- Recuentos por ubicación y estado.
-- Consultas de dificultad progresiva.
+## Topics
 
-## Estructura
+- SELECT and column projection.
+- Filtering records.
+- Sorting and grouping.
+- Aggregate functions.
+- Counts by location and status.
+- Progressively more complex queries.
 
-Los archivos `sql/lasql_01.sql` a `sql/lasql_08.sql` contienen las soluciones numeradas de los retos.
+## Repository structure
 
-## Ejecución
+The files `sql/lasql_01.sql` to `sql/lasql_08.sql` contain numbered challenge solutions.
 
-Ejecuta cada consulta en el entorno SQL compatible con el esquema del reto. El repositorio contiene las consultas, no la base de datos completa.
+## Run the exercises
 
-## Tecnologías
+Execute each query in a SQL engine compatible with the challenge schema. This repository contains the queries, not the complete database.
+
+## Technology
 
 - SQL
-- Consultas relacionales
-- Filtrado y agrupación
-- Funciones de agregación
+- Relational queries
+- Filtering and grouping
+- Aggregate functions
 
-## Project showcase
+## Showcase and deployment
 
-[Open the GitHub Pages showcase](https://tzayadet.github.io/SQL-Lost-at-SQL/) · [Showcase source](docs/index.html)
+The showcase source is available in [docs/index.html](docs/index.html). It indexes the SQL solutions but does not run a database engine. Pages deployment is gated by the `ENABLE_PAGES=true` Actions variable.
 
-The page is an index of the SQL solutions; it does not run a database engine. To publish it, select **Settings → Pages → Build and deployment → Source → GitHub Actions** and set the repository Actions variable `ENABLE_PAGES=true` under **Settings → Secrets and variables → Actions → Variables**. The workflow remains skipped until that variable is enabled.
+## Scope
+
+Personal practice solutions. Adapt the SQL dialect if the target database differs from the one used by the challenge.
+
+## License
+
+See [LICENSE](LICENSE).
