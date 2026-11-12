@@ -25,3 +25,9 @@ Ejecuta cada consulta en el entorno SQL compatible con el esquema del reto. El r
 - Consultas relacionales
 - Filtrado y agrupación
 - Funciones de agregación
+
+## Project showcase
+
+[Open the GitHub Pages showcase](https://tzayadet.github.io/SQL-Lost-at-SQL/) · [Showcase source](docs/index.html)
+
+The page is an index of the SQL solutions; it does not run a database engine. To publish it, select **Settings → Pages → Build and deployment → Source → GitHub Actions** and set the repository Actions variable `ENABLE_PAGES=true` under **Settings → Secrets and variables → Actions → Variables**. The workflow remains skipped until that variable is enabled.
