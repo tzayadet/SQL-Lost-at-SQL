@@ -13,7 +13,7 @@ Soluciones y apuntes de una serie de retos SQL con contexto narrativo. Los ejerc
 
 ## Estructura
 
-Los archivos `LaSQL N.sql` contienen las soluciones numeradas de los retos.
+Los archivos `sql/lasql_01.sql` a `sql/lasql_08.sql` contienen las soluciones numeradas de los retos.
 
 ## Ejecución
 
@@ -23,4 +23,5 @@ Ejecuta cada consulta en el entorno SQL compatible con el esquema del reto. El r
 
 - SQL
 - Consultas relacionales
-- Agregaciones y agrupaciones
+- Filtrado y agrupación
+- Funciones de agregación
