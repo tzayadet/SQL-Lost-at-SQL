@@ -8,7 +8,7 @@
 Solutions and notes for a series of SQL challenges with a narrative setting. The exercises use progressive queries over a fictional database schema.
 
 <p align="center">
-  <a href="https://github.com/tzayadet/SQL-Lost-at-SQL/blob/main/docs/index.html"><strong>SHOWCASE SOURCE</strong></a> ·
+  <a href="https://tzayadet.github.io/SQL-Lost-at-SQL/"><strong>LIVE DEMO ↗</strong></a> ·
   <a href="https://github.com/tzayadet/SQL-Lost-at-SQL"><strong>SOURCE CODE</strong></a>
 </p>
 
@@ -38,7 +38,7 @@ Execute each query in a SQL engine compatible with the challenge schema. This re
 
 ## Showcase and deployment
 
-The showcase source is available in [docs/index.html](docs/index.html). It indexes the SQL solutions but does not run a database engine. Pages deployment is gated by the `ENABLE_PAGES=true` Actions variable.
+The showcase source is available in [docs/index.html](docs/index.html). It indexes the SQL solutions but does not run a database engine. GitHub Pages is configured through the repository workflow in `.github/workflows/pages.yml`.
 
 ## Scope
 
